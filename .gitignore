@@ -1,2 +1,5 @@
 bot/
 .DS_Store
+
+proprietary/*
+prebuilt/archive
