@@ -146,6 +146,12 @@ PRODUCT_COPY_FILES += \
 
 # AICP OTA
 # ifneq ($(AICP_BUILDTYPE),UNOFFICIAL)
-PRODUCT_PACKAGES +=  \
+PRODUCT_PACKAGES += \
    AICP_OTA
 # endif
+
+# RobinParts
+ifeq ($(TARGET_PRODUCT),aicp_ether)
+PRODUCT_PACKAGES += \
+   RobinParts
+endif
