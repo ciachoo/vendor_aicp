@@ -30,6 +30,9 @@ ifdef AICP_BUILDTYPE
     ifeq ($(AICP_BUILDTYPE), EXPERIMENTAL)
         AICP_VERSION := $(TARGET_PRODUCT)_$(AICP_BRANCH)-$(VERSION)-EXPERIMENTAL-$(shell date +%Y%m%d)
     endif
+    ifeq ($(AICP_BUILDTYPE), EXTENDED)
+        AICP_VERSION := $(TARGET_PRODUCT)_$(AICP_BRANCH)-$(VERSION)-EXTENDED-$(shell date +%Y%m%d)
+    endif
     ifeq ($(AICP_BUILDTYPE), UNOFFICIAL)
         AICP_VERSION := $(TARGET_PRODUCT)_$(AICP_BRANCH)-$(VERSION)-UNOFFICIAL-$(shell date +%Y%m%d)
     endif
