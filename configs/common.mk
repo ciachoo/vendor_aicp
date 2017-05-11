@@ -152,7 +152,7 @@ PRODUCT_PACKAGES += \
 endif
 
 # RobinParts
-ifeq ($(TARGET_PRODUCT),aicp_ether)
-PRODUCT_PACKAGES += \
-   RobinParts
-endif
+#ifeq ($(TARGET_PRODUCT),aicp_ether)
+#PRODUCT_PACKAGES += \
+#   RobinParts
+#endif
