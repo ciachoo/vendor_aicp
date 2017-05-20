@@ -4,7 +4,7 @@ WIDTH="$1"
 HEIGHT="$2"
 HALF_RES="$3"
 OUT="$ANDROID_PRODUCT_OUT/obj/BOOTANIMATION"
-RANDOM_BOOT=4 # $(shuf -i 0-4 -n 1)
+RANDOM_BOOT=5 # $(shuf -i 0-5 -n 1)
 
 if [ -z "$WIDTH" ]; then
     echo "Warning: bootanimation width not specified"
