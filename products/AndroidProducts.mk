@@ -122,6 +122,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/Z00A.mk \
     $(LOCAL_DIR)/Z00L.mk \
     $(LOCAL_DIR)/z2_plus.mk \
+    $(LOCAL_DIR)/yuga.mk \
     $(LOCAL_DIR)/z3.mk \
     $(LOCAL_DIR)/z3c.mk \
     $(LOCAL_DIR)/Z00ED.mk \
